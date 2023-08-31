@@ -43,6 +43,7 @@ function App() {
         const response = await fetch('https://www.nseindia.com/api/option-chain-indices?symbol=NIFTY');
         const jsonData = await response.json();
 
+        console.log("data",data);
   //       // Calculating Change in OI DIfference
         let ceOI = 0;
         let peOI = 0;
